@@ -1,1 +1,32 @@
-<p>daily-form works!</p>
+<div class="container my-2">
+    <!-- FORMULÁRIO -->
+    <section class="my-2 p-2 bg-dark rounded">
+        <h2 class="text-white">Nova daily</h2>
+        <form class="fs-5 text-white d-flex flex-column mx-2 gap-2">
+            <div class="row">
+                <div class="col">
+                    <label for="in-name" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="in-name" placeholder="Seu nome" required>
+                </div>
+                <div class="col">
+                    <label for="in-today-date" class="form-label">Data:</label>
+                    <input type="date" class="form-control" id="in-today-date" placeholder="Amanhã farei..." required>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <label for="in-today-description" class="form-label">Descrição de hoje:</label>
+                    <textarea class="form-control" id="in-today-description" rows="3"
+                        placeholder="Hoje fiz..." required></textarea>
+                </div>
+                <div class="col">
+                    <label for="in-forecast-description" class="form-label">Planos para amanhã:</label>
+                    <textarea class="form-control" id="in-forecast-description" rows="3" placeholder="Amanhã farei..." required></textarea>
+                </div>
+            </div>
+
+            <button class="btn btn-outline-light">Registrar</button>
+        </form>
+    </section>
+</div>
