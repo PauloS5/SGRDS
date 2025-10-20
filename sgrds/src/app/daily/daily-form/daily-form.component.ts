@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-daily-form',
   imports: [],
   templateUrl: './daily-form.component.html',
-  styleUrl: './daily-form.component.css'
+  styles: ``
 })
 export class DailyFormComponent {
 
